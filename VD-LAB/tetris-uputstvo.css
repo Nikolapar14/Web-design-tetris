@@ -1,0 +1,33 @@
+#uputstvo{
+    background-color: antiquewhite;
+    border: 3px solid black;
+    font-weight: bold;
+    margin: auto;
+}
+
+img{
+    height: 100px;
+    width: 50px;
+}
+
+tr, td{
+    border: 3px solid black;
+}
+
+body{
+
+    background-color:lightblue;
+
+}
+
+#header{
+    height: 100px;
+    
+}
+
+#ttt{
+    background-color: lightblue;
+    border-top: hidden;
+    border-right: hidden;
+}
+

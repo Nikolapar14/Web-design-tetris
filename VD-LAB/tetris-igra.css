@@ -1,0 +1,26 @@
+#header{
+    height: 100px;
+    
+}
+
+#igra{
+    border-collapse: collapse;
+}
+
+
+#poeni{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+#nivo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   
+}
+
+body{
+
+    background-color:lightblue;
+
+}

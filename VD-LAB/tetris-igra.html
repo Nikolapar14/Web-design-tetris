@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tetris</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="tetris-igra.js"></script>
+    <link rel="stylesheet" href="tetris-igra.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row" id="header">
+
+        </div>
+
+        <div class="row ">
+            <div class="col-sm-3" ></div>
+            <div class="col-sm-6 text-center">
+                
+                <table id="igra"></table>
+                <div id="sacuvaj">
+                    Unesite ime igrača: <input type="text" id="imeIgraca">
+                    <button class="btn btn-info" id="cuvajRezultat">Sačuvaj</button>
+                </div>
+
+            </div>
+            <div class="col-sm-3" id="poeninivo">
+                <button class="btn btn-success" id="pokreni">Pokreni igru</button>
+                <br>
+                <h3 id="poeni">Broj poena: <h3 id="brPoena"></h3></h3>
+                <h3 id="nivo">Nivo: <h3 id="nivoTrenutni"></h3></h3>
+                <div id="sledeciElement">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row"></div>
+
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tetris</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="bootstrap.min.js"></script>
+    
+    <script src="jquery-3.7.0.min.js"></script>
+    <script src="tetris-uputstvo.js"></script>
+    <link rel="stylesheet" href="tetris-uputstvo.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="row text-center" id="header">
+            <div class="col-sm-12"><h1>Tetris</h1></div>
+        </div>
+        <br>
+        <div class="row ">
+
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 ">
+                <div class="row text-center">
+                    <p id="uputstvo">Uputsvo: <br>
+                        Strelica na levo - pomeranje u levo. <br>
+                        Strelica na desno - pomeranje u desno. <br>
+                        Strelica na gore - rotacija elementa. <br>
+                        Strelica na dole - ubrzanje elementa. <br>
+                        Kada se red popuni blokovima, red nestaje i svi blokovi iznad se spustaju naniže. <br>
+                        Cilj igre je popuniti red blokovima i što duže sklapati elemente tako da se ne dodirne vrh polja za igru. <br>
+                        Nakon skupljenih 150 poena prelazi se na naredni nivo i blokovi padaju brže. <br>
+                        Izbor nivo-a: lako - počinje od nivoa 1, srednje - počinje od nivoa 3, teško - počinje od nivoa 5
+                       
+                    </p>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <b>Izbor nivoa:&nbsp;&nbsp; Lako <input type="radio" name="izbor" id="lako">&nbsp;&nbsp;    Srednje <input type="radio" name="izbor" id="srednje">&nbsp;&nbsp;  Teško <input type="radio" name="izbor" id="tesko"></b>
+                </div>
+                <br>
+                <div class="row text-center">
+                    <table class="table">
+                        <tr>
+                            <td><img src="tetris-dodatno/element_1.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb1" id="cb1"></td>
+                            <td><img src="tetris-dodatno/element_2.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb2" id="cb2"></td>
+                            <td><img src="tetris-dodatno/element_3.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb3" id="cb3"></td>
+                            <td id="ttt"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="tetris-dodatno/element_4.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb4" id="cb4"></td>
+                            <td><img src="tetris-dodatno/element_5.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb5" id="cb5"></td>
+                            <td><img src="tetris-dodatno/element_6.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb6" id="cb6"></td>
+                            <td><img src="tetris-dodatno/element_7.png" alt="">&nbsp;&nbsp;<input type="checkbox" name="cb7" id="cb7"></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <br>
+                    
+                    <button class="btn btn-info" id="pokreni">Pokreni igru</button>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            <div class="col-sm-3"></div>
+            
+        </div>
+        
+
+        <div class="row"></div>
+
+    </div>
+    
+</body>
+</html>
